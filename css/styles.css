@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  width: calc(100% + 1rem);
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.baner__btn {
+  transition: all 0.5s;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.baner__btn:hover {
+  color: #823f3f;
+}
+
+@media (max-width: 850px) {
+  .card-50 {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .card-50 {
+    width: 80% !important;
+  }
+}
